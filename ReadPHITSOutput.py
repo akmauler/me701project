@@ -7,10 +7,10 @@ import os
 
 # Define the files and their respective multiplication factors (Dose normalization)
 FILES_AND_MULTIPLIERS = {
-    "outputfiles/Result_ATP-AM_VARIAN.out": 72,
-    "outputfiles/Result_ATP-AM_VARIAN-field2.out": 71,
-    "outputfiles/Result_ATP-AM_VARIAN-field3.out": 69,
-    "outputfiles/Result_ATP-AM_VARIAN-field4.out": 95
+    "Result_ATP-AM_VARIAN.out": 72,
+    "Result_ATP-AM_VARIAN-field2.out": 71,
+    "Result_ATP-AM_VARIAN-field3.out": 69,
+    "Result_ATP-AM_VARIAN-field4.out": 95
 }
 
 def parse_phits_file(filename, multiplier=1.0):
